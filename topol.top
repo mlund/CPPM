@@ -2,7 +2,6 @@
 ; nbfunc      comb-rule      gen-pairs       fudgeLJ    fudgeQQ
 ;1             1              yes             1.0        1.0
 
-;#include "oplsaa.ff/forcefield.itp"
 #include "amber99.ff/forcefield.itp"
 
 [ atomtypes ]
@@ -18,13 +17,7 @@ PP     PP         1      0.0000   A      0.3       0.24746
 ;AD2    AD2	  1	-2.0000   A      0.3       0.24746
 ;AT3    AT3	  1	-3.0000   A      0.3       0.24746 
 
-;#include "ions.itp"
 #include "sphere.itp"
-;#include "posres_SPH.itp"
-;#include "free.itp"
-;#include "posres_FREE.itp"
-;#include "oplsaa.ff/spce.itp"
-;#include "oplsaa.ff/ions.itp"
 
 [ system ]
 Patchy particles in water

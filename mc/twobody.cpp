@@ -13,11 +13,11 @@ int main(int argc, char** argv) {
   auto pot = Energy::Nonbonded<Tspace,Tpairpot>(mcp)
     + Energy::MassCenterConstrain<Tspace>(mcp, spc);
 
+  spc.load("state"); // load previous state, if any
+
   Analysis::LineDistribution<> rdf(0.1);
   Analysis::CombinedAnalysis analysis(mcp, pot, spc);
   Move::Propagator<Tspace> mv(mcp,pot,spc);
-
-  spc.load("state"); // load previous state, if any
 
   cout << atom.info() << spc.info() << pot.info() << textio::header("MC Simulation Begins!");
 

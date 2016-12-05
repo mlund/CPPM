@@ -1,3 +1,11 @@
+packmol.inp
+system.*
+minimized.pdb
+*~
+.ipynb_checkpoints
+faunus
+mc
+
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
