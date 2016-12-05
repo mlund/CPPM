@@ -1,0 +1,3 @@
+[ position_restraints ]
+;atom  type      fx      fy      fz
+  643     1    	 0    1000    1000
