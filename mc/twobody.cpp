@@ -5,7 +5,7 @@ using namespace Faunus::Potential;
 
 #ifdef CUBOID
 typedef Space<Geometry::Cuboid> Tspace;
-#elif
+#else
 typedef Space<Geometry::Cylinder> Tspace;
 #endif
 typedef CombinedPairPotential<WeeksChandlerAndersen, Coulomb> Tpairpot;
