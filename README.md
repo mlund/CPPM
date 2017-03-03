@@ -12,4 +12,4 @@ by issuing the following in a terminal:
 
     conda env create -f environment.yml
     source activate cppm
-    jupyter-notebook montecarlo.cpp
+    jupyter-notebook montecarlo.ipynb
