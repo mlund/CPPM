@@ -5,8 +5,8 @@ in electrolyte solution using Metropolis Monte Carlo simulations. The layout is 
 
 - `montecarlo.ipynb` - Jupyter Notebook for compiling, running, and plotting all simulation data
 - `environment.yml` - Environment file for setting up dependencies for Anaconda
-- `mc/` - Dicrectory with Monte Carlo data and C++ code
-- `md/` - Dicrectory with Notebook for MD simulations using OpenMM (experimental!)
+- `mc/` - Directory with Monte Carlo data and C++ code
+- `md/` - Directory with Notebook for MD simulations using OpenMM (experimental!)
 
 To open this Notebook, use [Conda](https://www.continuum.io/downloads) and make sure all required packages are loaded
 by issuing the following terminal commands,
