@@ -1,6 +1,6 @@
 # Steering Patchy Particles using Multivalent Electrolytes
 
-This repository contain a Jupyter Notebook for studying charged, patchy particles
+This repository contain a [Jupyter](http://jupyter.org) Notebook for studying charged, patchy particles
 in electrolyte solution using Metropolis Monte Carlo simulations. The layout is as follows:
 
 - `montecarlo.ipynb` - Jupyter Notebook for compiling, running, and plotting all simulation data
