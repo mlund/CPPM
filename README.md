@@ -8,7 +8,7 @@ in electrolyte solution using Metropolis Monte Carlo simulations. The layout is 
 - `mc/` - Directory with Monte Carlo data and C++ code
 - `md/` - Directory with Notebook for MD simulations using OpenMM (experimental!)
 
-To open this Notebook, use [Conda](https://www.continuum.io/downloads) and make sure all required packages are loaded
+To open this Notebook, install python via [(Mini)conda](https://www.continuum.io/downloads) and make sure all required packages are loaded
 by issuing the following terminal commands,
 
     conda env create -f environment.yml
