@@ -1,0 +1,163 @@
+{
+    "moves": {
+        "atomtranslate": {
+            "Cl": {
+                "peratom": true
+            },
+            "Na": {
+                "peratom": true
+            }
+        },
+        "moltransrot2body": {
+            "0sphere": {
+                "dp": 5,
+                "dprot": 0.5
+            },
+            "1sphere": {
+                "dp": 5,
+                "dprot": 0.5
+            }
+        }
+    },
+    "energy": {
+        "cmconstrain": {
+            "0sphere 1sphere": {
+                "mindist": 0,
+                "maxdist": 99
+            }
+        },
+        "nonbonded": {
+            "coulomb": {
+                "epsr": 78.7
+            }
+        }
+    },
+    "atomlist": {
+        "La": {
+            "dp": 10,
+            "sigma": 1.0,
+            "q": 3,
+            "mw": 0.001,
+            "eps": 2.479
+        },
+        "PO4": {
+            "dp": 10,
+            "sigma": 1.0,
+            "q": -3,
+            "mw": 0.001,
+            "eps": 2.479
+        },
+        "PP": {
+            "sigma": 4.0,
+            "q": 1,
+            "mw": 0.001,
+            "eps": 2.479
+        },
+        "MP": {
+            "sigma": 40,
+            "q": 0,
+            "mw": 1000000.0,
+            "eps": 2.479
+        },
+        "Na": {
+            "dp": 50,
+            "sigma": 4.0,
+            "q": 1,
+            "mw": 0.001,
+            "eps": 2.479
+        },
+        "UP": {
+            "sigma": 4.0,
+            "q": 0,
+            "mw": 0.001,
+            "eps": 2.479
+        },
+        "Cl": {
+            "dp": 50,
+            "sigma": 4.0,
+            "q": -1,
+            "mw": 0.001,
+            "eps": 2.479
+        },
+        "NP": {
+            "sigma": 4.0,
+            "q": -1,
+            "mw": 0.001,
+            "eps": 2.479
+        }
+    },
+    "analysis": {
+        "molrdf": {
+            "pairs": [
+                {
+                    "dr": 0.1,
+                    "dim": 1,
+                    "name1": "0sphere",
+                    "name2": "1sphere",
+                    "file": "rdf.dat"
+                }
+            ],
+            "nstep": 5
+        },
+        "pqrfile": {
+            "file": "confout.pqr"
+        },
+        "multipoledistribution": {
+            "file": "multipole.dat",
+            "groups": [
+                "0sphere",
+                "1sphere"
+            ],
+            "nstep": 10
+        },
+        "statefile": {
+            "file": "state"
+        },
+        "xtcfile": {
+            "file": "traj.xtc",
+            "nstep": 0
+        },
+        "chargemultipole": {
+            "mollist": [
+                "0sphere",
+                "1sphere"
+            ],
+            "nstep": 1000
+        }
+    },
+    "system": {
+        "temperature": 298.15,
+        "geometry": {
+            "radius": 55,
+            "length": 200
+        },
+        "mcloop": {
+            "macro": 10,
+            "micro": 10000000
+        }
+    },
+    "moleculelist": {
+        "Cl": {
+            "atoms": "Cl",
+            "Ninit": 114,
+            "atomic": true
+        },
+        "0sphere": {
+            "insdir": "0 0 0",
+            "insoffset": "0 0 25.0",
+            "structure": "/lunarc/nobackup/users/mikael/github/cppm/mc/sphere-P00-reduced.xyz",
+            "Ninit": 1
+        },
+        "1sphere": {
+            "insdir": "0 0 0",
+            "insoffset": "0 0 -25.0",
+            "structure": "/lunarc/nobackup/users/mikael/github/cppm/mc/sphere-P00-reduced.xyz",
+            "Ninit": 1
+        },
+        "Na": {
+            "atoms": "Na",
+            "Ninit": 130,
+            "atomic": true
+        }
+    }
+}

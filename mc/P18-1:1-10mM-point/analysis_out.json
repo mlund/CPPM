@@ -1,0 +1,43 @@
+{
+    "Charge Multipole": {
+        "mollist": {
+            "0sphere": {
+                "Z": -8,
+                "Z2": 64,
+                "mu": 186.57100000018,
+                "mu2": 34808.7380411137
+            },
+            "1sphere": {
+                "Z": -8,
+                "Z2": 64,
+                "mu": 186.571000000162,
+                "mu2": 34808.738041082
+            }
+        },
+        "nstep": 1000,
+        "relative time": 2.74897109054835e-07,
+        "samples": 100000
+    },
+    "Molecular Pair Distribution Function": {
+        "0sphere-1sphere": {
+            "dim": 1,
+            "dr": 0.1,
+            "file": "rdf.dat"
+        },
+        "nstep": 5,
+        "relative time": 1.30964335695295e-05,
+        "samples": 20000000
+    },
+    "Multipole Distribution": {
+        "dr": 0.2,
+        "file": "multipole.dat",
+        "groups": [
+            "0sphere",
+            "1sphere"
+        ],
+        "lB": 7.00569732917458,
+        "nstep": 10,
+        "relative time": 1.25123643711079e-05,
+        "samples": 10000000
+    }
+}

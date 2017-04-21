@@ -1,0 +1,171 @@
+Reading space state file 'state'. State file not found.
+
+ .................
+  Atom Properties  
+ *****************
+  Number of entries:       9
+  Element info:
+    unk   Cl    La    MP    NP    Na    PO4   PP    UP    
+
+ ...............................
+  Simulation Space and Geometry  
+ *******************************
+  Boundary                 Cylinder (hard ends)
+  Volume                   1.90066e+06 Å³ = 1900.66 nm³ = 1.90066e-21 liters
+  Length                   200 Å
+  Radius                   55 Å
+  Number of particles      174
+  Electroneutrality        Yes 0
+  System sanity check      Passed
+  Number of molecule types 4
+  Groups:
+    1     [0-66]           0sphere     
+    2     [67-133]         1sphere     
+    3     [134-167]        Na          N/V = 1.78885e-05 Å⁻³ = 29.7046 mM  
+    4     [168-173]        PO4         N/V = 3.15679e-06 Å⁻³ = 5.24198 mM  
+
+ .......................................................
+  Energy: Nonbonded N² - WeeksChandlerAnderson+Coulomb  
+ *******************************************************
+  WeeksChandlerAnderson pair parameters:
+
+         Cl<->Cl  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         La<->Cl  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         La<->La  σ =       1 Å  ϵ =       1 kT = 2.479 kJ/mol
+         MP<->Cl  σ =      22 Å  ϵ =       1 kT = 2.479 kJ/mol
+         MP<->La  σ =    20.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         MP<->MP  σ =      40 Å  ϵ =       1 kT = 2.479 kJ/mol
+         NP<->Cl  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         NP<->La  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         NP<->MP  σ =      22 Å  ϵ =       1 kT = 2.479 kJ/mol
+         NP<->NP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         Na<->Cl  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         Na<->La  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         Na<->MP  σ =      22 Å  ϵ =       1 kT = 2.479 kJ/mol
+         Na<->NP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         Na<->Na  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+        PO4<->Cl  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+        PO4<->La  σ =       1 Å  ϵ =       1 kT = 2.479 kJ/mol
+        PO4<->MP  σ =    20.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+        PO4<->NP  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+        PO4<->Na  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+       PO4<->PO4  σ =       1 Å  ϵ =       1 kT = 2.479 kJ/mol
+         PP<->Cl  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         PP<->La  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         PP<->MP  σ =      22 Å  ϵ =       1 kT = 2.479 kJ/mol
+         PP<->NP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         PP<->Na  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+        PP<->PO4  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         PP<->PP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->Cl  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->La  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->MP  σ =      22 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->NP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->Na  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+        UP<->PO4  σ =     2.5 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->PP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+         UP<->UP  σ =       4 Å  ϵ =       1 kT = 2.479 kJ/mol
+  Temperature              298.15 K
+  Dielectric constant      80
+  T∂ϵ/ϵ∂T                  -1.37149
+  Bjerrum length           7.0057 Å
+
+ ................................................
+  Energy: Group Mass Center Distance Constraints  
+ ************************************************
+  The following molecules have mass center constraints:
+    0sphere 1sphere 0-99 Å
+
+ .......................
+  MC Simulation Begins!  
+ ***********************
+  Steps:    1 / 1000        Macrosteps/min: 312     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    2 / 2000        Macrosteps/min: 352     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    3 / 3000        Macrosteps/min: 361     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    4 / 4000        Macrosteps/min: 372     ETA: Fri Mar  3 12:20:30 2017
+  Steps:    5 / 5000        Macrosteps/min: 377     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    6 / 6000        Macrosteps/min: 379     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    7 / 7000        Macrosteps/min: 377     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    8 / 8000        Macrosteps/min: 375     ETA: Fri Mar  3 12:20:31 2017
+  Steps:    9 / 9000        Macrosteps/min: 375     ETA: Fri Mar  3 12:20:31 2017
+  Steps:   10 / 10000       Macrosteps/min: 377     ETA: Fri Mar  3 12:20:31 2017
+
+ ...................
+  MC Steps and Time  
+ *******************
+  Steps (macro micro tot)  10∙1000 = 10000
+  Time elapsed             0.0166667 min = 0.000277778 h
+
+ ....................................
+  Markov Move: P R O P A G A T O R S  
+ ************************************
+  Number of trials              10000
+  Relative time consumption     0
+  Acceptance                    0﹪
+  Runfraction                   100﹪
+  Total energy change           0 kT
+  Average energy                730.188
+  Initial energy                815.549 kT
+  Current energy                730.346 kT
+  Changed                       -85.2031 kT
+  Absolute drift                9.54969e-12 kT
+  Relative drift                1.17095e-12﹪
+
+ ..........................................
+  Markov Move: Single Particle Translation  
+ ******************************************
+  Number of trials              98546
+  Relative time consumption     0.208952
+  Acceptance                    47.8599﹪
+  Runfraction                   100﹪
+  Total energy change           -87.8525 kT
+  Average moves/particle        3398
+  Displacement vector           1 1 1
+
+  Individual particle movement:
+
+           dp    Acc. ﹪     Nmoves      ⟨r²⟩/Å²     √⟨r²⟩/Å
+    Na     50    49.4        83708       283         16.8        
+    PO4    10    39.3        14838       9.11        3.02        
+
+ ......................................................................
+  Markov Move: Group Rotation/Translation (N-body) (2-body, symmetric)  
+ **********************************************************************
+  Number of trials              5065
+  Relative time consumption     0.753987
+  Acceptance                    68.1145﹪
+  Runfraction                   100﹪
+  Total energy change           2.64941 kT
+  Number of groups              2
+  Max. translation              ±2.5 Å
+  Max. rotation                 ±14.3239°
+  Move Statistics:
+    Group name          Acc. ﹪     √⟨dR²⟩/Å     √⟨dθ²⟩/°
+    0sphere             68.1        1.13        6.7         
+    1sphere             68.1        1.13        6.85        
+
+ ............................
+  Analysis: Charge Multipole  
+ ****************************
+  Sample interval               1000
+  Number of sample events       10
+
+  Macromolecule                 ⟨Z⟩          ⟨Z²⟩-⟨Z⟩²     ⟨μ⟩          ⟨μ²⟩-⟨μ⟩²
+  0sphere                       -8           0             33.0314      2.27374e-13  
+  1sphere                       -8           0             33.0314      0            
+
+ ................................................
+  Analysis: Molecular Pair Distribution Function  
+ ************************************************
+  Sample interval               5
+  Number of sample events       2000
+
+ ..................................
+  Analysis: Multipole Distribution  
+ **********************************
+  Sample interval               10
+  Number of sample events       1000
+  Relative time                 0.0308767
+
+Writing to file 'confout.pqr'. OK!
+Writing space state file 'state'. OK!
