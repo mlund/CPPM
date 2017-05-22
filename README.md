@@ -1,6 +1,6 @@
 # Steering Patchy Particles using Multivalent Electrolytes
 
-_Alexei Abrikossov, Björn Stensvist, Mikael Lund, 2017._
+_Alexei Abrikossov, Björn Stenqvist, Mikael Lund, 2017._
 
 [DOI:10.1039/C7SM00470B](http://dx.doi.org/10.1039/C7SM00470B).
 
