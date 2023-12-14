@@ -28,8 +28,8 @@
             "relation": "isSupplementTo"
         },
         {
-            "scheme": "doi",
-            "identifier": "10.1039/C7SM00470B",
+            "scheme": "url",
+            "identifier": "https://doi.org/10.1039/C7SM00470B",
             "relation": "isSupplementTo"
         }
     ],
