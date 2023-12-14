@@ -1,0 +1,41 @@
+{
+    "title": "Electronic Notebook: Steering Patchy Particles using Multivalent Electrolytes",
+    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in the scientific paper Steering Patchy Particles using Multivalent Electrolytes",
+    "creators": [
+        {
+            "name": "Alexei Abrikosov",
+            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Lund SE-221 00, Sweden"
+        },
+        {
+            "name": "Björn Stenqvist",
+            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Lund SE-221 00, Sweden",
+            "orcid": "0000-0002-9099-0663"
+        },
+        {
+            "name": "Mikael Lund",
+            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Lund SE-221 00, Sweden",
+            "orcid": "0000-0001-8178-8175"
+        }
+    ],
+    "keywords": [
+        "reproducible science",
+        "electronic notebooks"
+    ],
+    "related_identifiers": [
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/mlund/cppm",
+            "relation": "isSupplementTo"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.1039/C7SM00470B",
+            "relation": "isSupplementTo"
+        }
+    ],
+    "license": {
+        "id": "CC0-1.0"
+    },
+    "access_right": "open",
+    "upload_type": "software"
+}
